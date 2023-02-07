@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    font-family: Outfit, serif;
+    font-weight: 400;
+    
+}
+body, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    border-radius: 5%;
+}
+img{
+    max-width: 90%;
+    margin: 5%;
+    border-radius: 4%;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.4em;
+    margin: 2.5% 5% 4.5% 5%;
+    text-align: center;
+    line-height: 1.25em;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    font-size: 1em;
+    margin: 0% 9% 12.5% 9%;
+    text-align: center;
+    line-height: 1.25em;
+    color: hsl(220, 15%, 55%);
+}
